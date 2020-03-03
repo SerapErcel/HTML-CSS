@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Nesne Yonelimli Programlama</title>
+</head>
+<body>
+<div style="width:1100px; height:160px; background:#AED6F1;
+margin:5px auto; padding:5px 25px 5px 25px">
+<img src="python2.png" width="150" height="150" title="python" alt="python">
+<img src="oop.jpg" width="800" height="150" title="oop" alt="oop">
+<img src="java1.png" width="100" height="150" title="java" alt="java">
+
+</div>
+<div style="width:900px; height:1800px; background:#FAE5D3;
+ margin:50px auto; padding:8px 8px" >
+<br><br>
+<h1 align="center"><font  color="#900C3F">NESNE YÖNELÝMLÝ PROGRAMLAMA-NYP</font></h1>
+<h1 align="center"><font color="#900C3F">(OBJECT ORÝENTED PROGRAMMÝNG-OOP)</font></h1>
+<p><font face="tahoma">&nbsp; Nesne yönelimli programlama, 
+1960'lý yýllarýn sonunda yazýlým karmaþýklýðýný, maliyeti (gerek boyut gerek 
+çaba gerekse zaman açýsýndan) düþürmek amacýyla dönemin tek yaklaþýmý olan 
+yordamsal programlamanýn yerine ortaya çýkan bir bilgisayar programlama yaklaþýmýdýr.
+</font></p>
+<p><font face="tahoma">&nbsp; Nesne yönelimli programlamada nesne ve sýnýf kavramlarý temel alýnýr. 
+Peki nedir bu nesne ve sýnýf?
+</font></p>
+<h2 align="center"><font color="#FA8072" >Nesne(Object)</font></h2>
+<p><font face="tahoma">&nbsp; Basit tabirle nesne; her "þey"dir.  Bu "þey"ler özelliklere(deðiþkenler) ve 
+davranýþlara(metodlar) sahiptir. Yani özelliði ve davranýþý olan her þey nesnedir
+diyebiliriz. Nesneler, verileri ve bu verileri iþleyen fonksiyonlarý barýndýrýr. 
+Bellekte alan kaplarlar.
+</font></p>
+<h2 align="center"><font color="#FA8072" >Sýnýf(Class)</font></h2>
+<p><font face="tahoma">&nbsp; Soyut bir kavram olan sýnýf, ortak özelliklere ve davranýþlara sahip nesneler
+ bütünüdür. Doðrudan kullanýlamazlar sadece nesne oluþturarak kullanýlabilirler. 
+<br/>
+&nbsp; Sýnýflar nesnelerin türünü oluþturur. Yani sýnýflarý taslak olarak kabul edersek, 
+nesneler bu taslaktan türetilen birer varlýktýr. Ayný taslaktan birden fazla 
+varlýk türetilebilir.
+</font></p>
+<h2 align="center"><font color="#FA8072" >Nesne Yönelimli Programlama Prensipleri</font></h2>
+<font face="tahoma">Temel alýnan 4 ana prensip vardýr. Bunlar; </font>
+<ol>
+<font face="tahoma">
+<li>Kalýtým(inheritance)</li>
+<li>Çok biçimlilik(polymorpihsm)</li>
+<li>Soyutlama(abstraction)</li>
+<li>Kapsülleme(encapsulation)</li>
+</font></ol>
+<h2 align="center"><font color="#FA8072">Kalýtým(inheritance) nedir?</font></h2>
+<p><font face="tahoma">&nbsp; Bir sýnýftan yeni sýnýflar türetebilmeye kalýtým denir. Miras almak þeklinde de 
+ifade edilebilir. Türetilen bu sýnýflar(alt sýnýf) türetildiði sýnýfýn(üst sýnýf) 
+özelliklerini alabilir. Bir sýnýftan birden fazla sýnýf türetiliyorsa buna çoklu kalýtým
+denir. Kalýtýmýn en büyük avantajý, üst sýnýflarda tanýmlanmýþ deðiþken ve metodlarý 
+tekrar tekrar yazmanýn önüne geçebilmesidir.
+</font></p>
+<h2 align="center"><font face="tahoma"color="#FA8072">Çok Biçimlilik(polimorpihsm) nedir?</font></h2>
+<p><font face="tahoma">&nbsp; Çoklu biçim anlamýna gelen polimorfizm, bir nesnenin farklý nesneler gibi davranabilmesidir. 
+Alt sýnýflar miras alýndýklarý üst sýnýfýn davranýþlarýný göstermek zorunda deðildir. 
+Baþka bir deyiþle farklý nesnelerin ayný olaya farklý þekilde cevap vermesidir.
+</font></p>
+<h2 align="center"><font face="tahoma"color="#FA8072">Soyutlama(abstraction) nedir?</font></h2>
+<p><font face="tahoma">&nbsp; Bir nesneyi tanýmlarken davranýþ ve özelliklerin kompleks kýsýmlarýnýn azaltýlmasý ile 
+basit ve anlaþýlýr tanýmlama yapýlmasý iþlemidir. Kýsaca sýnýf üyelerinin tanýmlanmasý diyebiliriz
+</font></p>
+
+<h2 align="center"><font face="tahoma"color="#FA8072">Kapsülleme(encapsulation) nedir?</font></h2>
+<p><font face="tahoma">&nbsp; Sýnýf içerisindeki bilgilerin gizliliðini saðlar. Bünyesinde barýndýrdýðý metod ve 
+deðiþkenlere dýþarýdan eriþimi derecelendirerek sýnýrlandýrýr. Bu derecelendirmeyi eriþim belirleyiciler ile mümkün kýlar.
+</font></p>
+
+<h3><font color="#F08080">Eriþim Belirleyiciler(Access Modifiers)</font></h3>
+<p><font face="tahoma">&nbsp; Public, private ve protected anahtar kelimeleri eriþim belirleyicilerdir. 
+Eðer bunlardan biri kullanýlmazsa default kullanýlýr.
+</font></p>
+<ul><font face="tahoma">
+<li><b>Public:</b> Herkese açýk metod ve deðiþkenler için kullanýlýr.</li>
+<li><b>Protected:</b> Sýnýf içinde ve o sýnýftan türetilmiþ sýnýflardan eriþilebilir.</li>
+<li><b>Private:</b> Sadece kendi sýnýfýndan eriþilebilir.</li>
+<li><b>Default:</b> Sýnýf içinde ve sýnýfla ayný paketteki sýnýflardan eriþilebilir.</li>
+</font></ul>
+
+<h2 align="center"><font face="tahoma" color="#FA8072">Nesne Yönelimli Programlama Ne Ýþe Yarar?</font></h2>
+<ul>
+<font face="tahoma">
+<li>Programlarý parçalara bölerek herhangi bir hata sonucunda rahat kontrol edilebilirliði saðlar.</li>
+<li>Parçalarýn birbiriyle organize bir þekilde çalýþmasýný saðlayarak performans verimi arttýrýr.</li>
+<li>Oluþturulan nesnelerin baðýmsýz olmasý sayesinde bilgi gizliliðine olanak saðlar.</li>
+<li>Nesnelerin tasarýmýný sýnýf içinde yaparak. Bu sýnýflardan oluþturulan nesnelerde kod tekrarýný 
+engeller ve geliþmiþ programlar yazmayý mümkün kýlar.</li>
+</font></ul>
+</div>
+</body>
+</html>
