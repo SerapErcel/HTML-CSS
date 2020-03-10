@@ -1,2 +1,2 @@
 # HTML-CSS
-Html ve css örnek çalışmaları
+Html CSS easy examples
